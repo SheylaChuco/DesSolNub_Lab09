@@ -1,0 +1,12 @@
+LAB 09 - App de imagenes con S3
+
+1) Instalar dependencias (una sola vez):
+     npm install
+2) Revisar el archivo .env (ya viene con tu bucket y el perfil app-user).
+   Las claves NO van aqui: el SDK usa el perfil app-user de aws configure.
+3) Iniciar:
+     npm start
+4) Abrir en el navegador:
+     http://localhost:3001
+
+El CORS del bucket debe permitir http://localhost:3001 y http://localhost:8081.

@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; background: #f4f6f8; color: #1f2933; }
+header { background: #1f3a5f; color: #fff; padding: 20px 24px; }
+header h1 { margin: 0 0 4px; font-size: 1.5rem; }
+header p { margin: 0; opacity: .8; font-size: .9rem; }
+main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+.drop { background: #fff; border: 2px dashed #9aa5b1; border-radius: 10px; padding: 28px; text-align: center; }
+.drop.over { border-color: #1f3a5f; background: #eef3f9; }
+.btn { display: inline-block; background: #1f3a5f; color: #fff; padding: 8px 18px; border-radius: 6px; cursor: pointer; margin: 6px 0; }
+small { display: block; color: #667; margin-top: 6px; }
+.msg { margin-top: 12px; font-size: .95rem; min-height: 1.2em; }
+.msg.ok { color: #1a7f37; } .msg.err { color: #c0392b; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+.card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.card img { width: 100%; height: 150px; object-fit: cover; display: block; }
+.card .info { padding: 8px 10px; font-size: .8rem; }
+.card .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 6px; }
+.card button { background: #c0392b; color: #fff; border: 0; padding: 5px 10px; border-radius: 5px; cursor: pointer; }
+.empty { color: #667; }

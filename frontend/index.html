@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeria de imagenes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Galeria de imagenes</h1>
+    <p>Las fotos se suben directo a S3 con URLs prefirmadas</p>
+  </header>
+  <main>
+    <section id="drop" class="drop">
+      <p><strong>Arrastra una imagen aqui</strong> o</p>
+      <label class="btn">Elegir archivo
+        <input id="file" type="file" accept="image/jpeg,image/png,image/webp" hidden>
+      </label>
+      <small>JPG, PNG o WEBP, menos de 5 MB</small>
+      <div id="msg" class="msg"></div>
+    </section>
+    <section>
+      <h2>Mis imagenes</h2>
+      <div id="gallery" class="gallery"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
